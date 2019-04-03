@@ -1,0 +1,2570 @@
+{
+  "name": "iPrimed Chatbot",
+  "intents": [
+    {
+      "intent": "general_query",
+      "examples": [
+        {
+          "text": "do you provide offline coaching ?"
+        },
+        {
+          "text": "can i access the course materials online ?"
+        },
+        {
+          "text": "do you provide courses online ?"
+        },
+        {
+          "text": "whether courses are accessed online or offline ?"
+        },
+        {
+          "text": "any offline center for the training?"
+        }
+      ],
+      "description": "user is asking for basic informations"
+    },
+    {
+      "intent": "questioning_capabilities",
+      "examples": [
+        {
+          "text": "you are overconfident"
+        },
+        {
+          "text": "oh really ?"
+        },
+        {
+          "text": "do you think you are the smartest ?"
+        },
+        {
+          "text": "don't be oversmart"
+        },
+        {
+          "text": "seriously ?"
+        },
+        {
+          "text": "how can you do this to me ?"
+        }
+      ],
+      "description": "questioning the abilities of the chatbot"
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hlo"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Employment_Inquiry",
+      "examples": [
+        {
+          "text": "Search job"
+        },
+        {
+          "text": "What are the job openings available with the company?"
+        },
+        {
+          "text": "What are the jobs you are hiring for?"
+        },
+        {
+          "text": "What employment opportunities are currently available?"
+        },
+        {
+          "text": "What is your jobs web site?"
+        },
+        {
+          "text": "What jobs are available that are hiring for now?"
+        },
+        {
+          "text": "What kind of jobs do you have?"
+        },
+        {
+          "text": "What positions do you have available?"
+        },
+        {
+          "text": "What's the process for job application?"
+        },
+        {
+          "text": "Where is your careers page?"
+        },
+        {
+          "text": "i wanted to join iprimed"
+        },
+        {
+          "text": "Are there any job vacancies currently open at your company?"
+        },
+        {
+          "text": "Are you hiring at the moment?"
+        },
+        {
+          "text": "Can I join you guys?"
+        },
+        {
+          "text": "Halp me I need work"
+        },
+        {
+          "text": "Hire me please"
+        },
+        {
+          "text": "How would I go about joining your company?"
+        },
+        {
+          "text": "I am looking for a job and would like to know if you have anything available.."
+        },
+        {
+          "text": "I need to find some work"
+        },
+        {
+          "text": "Is there any current employment opportunities?"
+        },
+        {
+          "text": "Well I m asking what level of the marketing position your company is looking for"
+        }
+      ],
+      "description": "Find job opportunities."
+    },
+    {
+      "intent": "Customer_Care_Course_Inquiry",
+      "examples": [
+        {
+          "text": "Is there a customer loyalty program of some sort available at the moment?"
+        },
+        {
+          "text": "Is there a bonus group offered?"
+        },
+        {
+          "text": "Is it possible to obtain points for buys I have made in the past?"
+        },
+        {
+          "text": "If I purchase frequently will I get benefits?"
+        },
+        {
+          "text": "Frequent purchaser benefits?"
+        },
+        {
+          "text": "Do you have a points program?"
+        },
+        {
+          "text": "Do I get anything for buying a lot?"
+        },
+        {
+          "text": "Can I receive loyalty credit for previous acquisitions?"
+        },
+        {
+          "text": "Can I get points on transactions I've already made?"
+        },
+        {
+          "text": "Can I get points for stuff I bought?"
+        },
+        {
+          "text": "Are pre-purchased items eligible for rewards?"
+        },
+        {
+          "text": "Are past purchases rewarded?"
+        },
+        {
+          "text": "Reward scheme?"
+        },
+        {
+          "text": "Rewards frequent purchasing?"
+        },
+        {
+          "text": "What about your loyalty program?"
+        },
+        {
+          "text": "Is there a program that rewards me for my use?"
+        },
+        {
+          "text": "Is there a rewards system for customers?"
+        },
+        {
+          "text": "Loyalty rewards program?"
+        },
+        {
+          "text": "Receive credits buys?"
+        },
+        {
+          "text": "Reward points backdated?"
+        }
+      ],
+      "description": "Learn about discounts for customers"
+    },
+    {
+      "intent": "me_too",
+      "examples": [
+        {
+          "text": "i am fine"
+        },
+        {
+          "text": "i am doing great"
+        },
+        {
+          "text": "i am doing good"
+        },
+        {
+          "text": "i am also doing good"
+        },
+        {
+          "text": "i am also doing great"
+        },
+        {
+          "text": "i m also doing great"
+        },
+        {
+          "text": "i m fine"
+        },
+        {
+          "text": "i m fyn"
+        },
+        {
+          "text": "i am good"
+        },
+        {
+          "text": "i m also good"
+        },
+        {
+          "text": "me too good"
+        },
+        {
+          "text": "me too fine"
+        }
+      ],
+      "description": "user telling about himself/herself"
+    },
+    {
+      "intent": "About_the_company_leaders",
+      "examples": [
+        {
+          "text": "who is the head of finance of the company?"
+        },
+        {
+          "text": "who is the head of centre of excellence of the company?"
+        },
+        {
+          "text": "head of the company"
+        },
+        {
+          "text": "who is the head of campus of the company?"
+        },
+        {
+          "text": "who is the COO of the company?"
+        },
+        {
+          "text": "who is the CEO of the company?"
+        },
+        {
+          "text": "who is the head of technology of the company?"
+        }
+      ],
+      "description": "questions related to the company's leadership team"
+    },
+    {
+      "intent": "Products_Offered",
+      "examples": [
+        {
+          "text": "what courses do you offer?"
+        },
+        {
+          "text": "i want to buy a course"
+        },
+        {
+          "text": "what services are provided by iPrimed?"
+        },
+        {
+          "text": "I need information on one of your products"
+        },
+        {
+          "text": "Catalogue look"
+        },
+        {
+          "text": "What products do you offer in the company?"
+        },
+        {
+          "text": "what are the courses for technical background ?"
+        },
+        {
+          "text": "what your company offers ?"
+        },
+        {
+          "text": "i want to join"
+        },
+        {
+          "text": "tell me about iprimed"
+        },
+        {
+          "text": "What products can I get from your company?"
+        },
+        {
+          "text": "What products are offered in the company?"
+        },
+        {
+          "text": "What product do you recommend for a tech consultant?"
+        },
+        {
+          "text": "What potential products or services are available?"
+        },
+        {
+          "text": "What kinds of products do you sell?"
+        },
+        {
+          "text": "What kind of products are available?"
+        },
+        {
+          "text": "What does your shop provide?"
+        },
+        {
+          "text": "What does your business sell?"
+        },
+        {
+          "text": "What are your business banking products?"
+        },
+        {
+          "text": "Tell me about shoes"
+        },
+        {
+          "text": "Show me retirement products"
+        },
+        {
+          "text": "Show me some cars"
+        },
+        {
+          "text": "New products"
+        },
+        {
+          "text": "Need to know what products you have"
+        },
+        {
+          "text": "Items currently sold"
+        },
+        {
+          "text": "Items available?"
+        },
+        {
+          "text": "I would like to know what I can buy"
+        },
+        {
+          "text": "any courses for non technical background ?"
+        }
+      ],
+      "description": "Find products that are available for purchase."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "wow"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "nice"
+        },
+        {
+          "text": "Can't believe you are that good"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Contact_Us",
+      "examples": [
+        {
+          "text": "What is the customer number?"
+        },
+        {
+          "text": "Can I contact the business by post?"
+        },
+        {
+          "text": "Can I get some more information?"
+        },
+        {
+          "text": "Can I text you a question?"
+        },
+        {
+          "text": "Can you give me the number to the general manager?"
+        },
+        {
+          "text": "Can you please arrange for someone to call me!?"
+        },
+        {
+          "text": "Hi can you let me have the telephone number of my local store please?"
+        },
+        {
+          "text": "How can I contact your business?"
+        },
+        {
+          "text": "How do I best contact you when there has been a problem with my bill?"
+        },
+        {
+          "text": "I want to know number to the store closest to me"
+        },
+        {
+          "text": "I would like to speak to customer service."
+        },
+        {
+          "text": "Is there a phone number to your shop at fort worth tx?"
+        },
+        {
+          "text": "Need your phone number"
+        },
+        {
+          "text": "Tell me the number to your general department"
+        },
+        {
+          "text": "What is the closest store's phone number?"
+        },
+        {
+          "text": "What is you email?"
+        },
+        {
+          "text": "What number should I call to order new line of service?"
+        },
+        {
+          "text": "Where can I reach the company personally?"
+        },
+        {
+          "text": "Which is the number of the main office here in los angeles?"
+        },
+        {
+          "text": "Who can I call?"
+        }
+      ],
+      "description": "Find basic contact information."
+    },
+    {
+      "intent": "programming",
+      "examples": [
+        {
+          "text": "how you were programmed ?"
+        },
+        {
+          "text": "how you are developed ?"
+        },
+        {
+          "text": "who is your developer ?"
+        },
+        {
+          "text": "who created u"
+        },
+        {
+          "text": "who programmed you ?"
+        },
+        {
+          "text": "in which programming language you were built ?"
+        }
+      ],
+      "description": "about how the bot has been programmed"
+    },
+    {
+      "intent": "emotions",
+      "examples": [
+        {
+          "text": "are you sad?"
+        },
+        {
+          "text": "are you angry?"
+        },
+        {
+          "text": "are you feeling low?"
+        },
+        {
+          "text": "do you feel emotions ?"
+        },
+        {
+          "text": "are you happy?"
+        }
+      ],
+      "description": "checking the emotions of the bot"
+    },
+    {
+      "intent": "name_of_the_company",
+      "examples": [
+        {
+          "text": "which company do you work for ?"
+        },
+        {
+          "text": "what your company known as?"
+        },
+        {
+          "text": "what people call your company?"
+        },
+        {
+          "text": "which company are you working from?"
+        },
+        {
+          "text": "what is your company's name?"
+        }
+      ],
+      "description": "Information regarding the company"
+    },
+    {
+      "intent": "fine_thank_you",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "how are you?"
+        },
+        {
+          "text": "hw r u?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        }
+      ],
+      "description": "fine thank you type questions"
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "idiot"
+        },
+        {
+          "text": "go to hell"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Company_work",
+      "examples": [
+        {
+          "text": "what is your company's motive ?"
+        },
+        {
+          "text": "what your company do?"
+        },
+        {
+          "text": "what is the aim of your company ?"
+        },
+        {
+          "text": "what is the objective of your company?"
+        },
+        {
+          "text": "what kind of service your company offers ?"
+        }
+      ],
+      "description": "what the company do?"
+    },
+    {
+      "intent": "wishing",
+      "examples": [
+        {
+          "text": "gd night"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "gd evng"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "gd aftrn"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "gd mrng"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "gd nt"
+        },
+        {
+          "text": "gd nyt"
+        }
+      ],
+      "description": "user wishing the bot"
+    },
+    {
+      "intent": "Store_Location",
+      "examples": [
+        {
+          "text": "Do you have an office in denver?"
+        },
+        {
+          "text": "what is the address of the company"
+        },
+        {
+          "text": "where are you from ?"
+        },
+        {
+          "text": "can you tell me about physical locations you have in bengaluru?"
+        },
+        {
+          "text": "I need help with find a delivery hub"
+        },
+        {
+          "text": "I'd like to go to your office"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where is your office?"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where are the store locations closest to davis city hall?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "Show me nearest service center"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "Find store"
+        }
+      ],
+      "description": "Locate a physical store location or an address."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "what should i call you"
+        },
+        {
+          "text": "what people call you"
+        },
+        {
+          "text": "who is this ?"
+        },
+        {
+          "text": "Who are you?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "Store_Hours",
+      "examples": [
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "course_suggestion",
+      "examples": [
+        {
+          "text": "courses for b.tech graduate"
+        },
+        {
+          "text": "which course should i enroll myself to get into a MNC"
+        },
+        {
+          "text": "what course will help me getting a placement ?"
+        },
+        {
+          "text": "courses for bsc graduate?"
+        },
+        {
+          "text": "what courses are available for my sister?"
+        },
+        {
+          "text": "what courses should i take for my brother?"
+        },
+        {
+          "text": "which course should i take?"
+        }
+      ],
+      "description": "suggesting a course"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "How can I use you?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "thanks",
+      "examples": [
+        {
+          "text": "awesome"
+        },
+        {
+          "text": "thanq"
+        },
+        {
+          "text": "thanks a lot"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "tqsm"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        }
+      ],
+      "description": "The user is thanking"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "name",
+          "synonyms": [
+            "name",
+            "call"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "contact",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "contact number",
+          "synonyms": [
+            "number",
+            "no.",
+            "no",
+            "num",
+            "contact details"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mail",
+          "synonyms": [
+            "email",
+            "e-mail",
+            "electronic mail",
+            "gmail",
+            "mail"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "languages",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "languages",
+          "synonyms": [
+            "hindi",
+            "english",
+            "spanish",
+            "french",
+            "german",
+            "chinese",
+            "japanese",
+            "italian",
+            "bangla",
+            "urdu"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "programming",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "developed",
+          "synonyms": [
+            "programmed"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "leadership_team",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "COO",
+          "synonyms": [
+            "Chief Operating Officer",
+            "coo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Head of technology",
+          "synonyms": [
+            "tech head",
+            "technology head",
+            "technical head"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Finance Head",
+          "synonyms": [
+            "fin head",
+            "head finance",
+            "head of finance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CEO",
+          "synonyms": [
+            "ceos",
+            "founder",
+            "Chief Operating Officer",
+            "ceo",
+            "head of the company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "head of centre of excellence",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Head of campus",
+          "synonyms": [
+            "campus head"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "wish",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "morning",
+          "synonyms": [
+            "mrng",
+            "morng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "evening",
+          "synonyms": [
+            "evng",
+            "evg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "night",
+          "synonyms": [
+            "nyt",
+            "nite",
+            "nt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "afternoon",
+          "synonyms": [
+            "aftrn",
+            "aftrnoon",
+            "aftrnun",
+            "aftrnn"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bengaluru",
+          "synonyms": [
+            "bangalore",
+            "banglore",
+            "bengalore",
+            "benglore"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jamshedpur",
+          "synonyms": [
+            "jsr",
+            "jmshedpur",
+            "jamshdpur",
+            "jamsedpur"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " I am a linguist."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1546722985273",
+      "metadata": {},
+      "conditions": "#General_About_You || @languages",
+      "dialog_node": "node_25_1546723757736",
+      "previous_sibling": "node_24_1546723320301"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I prefer myself to be called an IBM Watson Chatbot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1546722985273",
+      "metadata": {},
+      "conditions": "#General_About_You || @name",
+      "dialog_node": "node_24_1546723320301"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1546796508610",
+      "event_name": "focus",
+      "dialog_node": "handler_18_1546796508610",
+      "previous_sibling": "handler_17_1546796508610"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_16_1546796508610",
+      "event_name": "input",
+      "dialog_node": "handler_17_1546796508610"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am doing great,what about you?"
+              },
+              {
+                "text": "I am fine thank you,what about you?"
+              },
+              {
+                "text": "absolutely fine, what about you?"
+              },
+              {
+                "text": "fine thank you, how are you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1546730380284",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_9_1546796439214",
+      "previous_sibling": "slot_16_1546796508610"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1546730380284",
+      "dialog_node": "slot_16_1546796508610"
+    },
+    {
+      "type": "standard",
+      "title": "wishing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good night"
+              },
+              {
+                "text": "Good night sweet dreams"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546716424396",
+      "metadata": {},
+      "conditions": "@wish:night",
+      "dialog_node": "node_7_1546716824047",
+      "previous_sibling": "node_6_1546716683013"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Afternoon, how can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546716424396",
+      "metadata": {},
+      "conditions": "@wish:afternoon",
+      "dialog_node": "node_9_1546716991150",
+      "previous_sibling": "node_8_1546716898608"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Evening,how can I help you ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546716424396",
+      "metadata": {},
+      "conditions": "@wish:evening",
+      "dialog_node": "node_8_1546716898608",
+      "previous_sibling": "node_7_1546716824047"
+    },
+    {
+      "type": "standard",
+      "title": "wishing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good morning,How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1546716424396",
+      "metadata": {},
+      "conditions": "@wish:morning",
+      "dialog_node": "node_6_1546716683013"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mrs. A. Aakillunisa is the head of centre of excellence of iPrimed Education Solutions Pvt. Ltd."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1546718265468",
+      "metadata": {},
+      "conditions": "@leadership_team:(head of centre of excellence)",
+      "dialog_node": "node_16_1546719009859",
+      "previous_sibling": "node_15_1546718951430"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mr. Mukund Jhunjhunwala is the head of campus of iPrimed Education Solutions Pvt. Ltd."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1546718265468",
+      "metadata": {},
+      "conditions": "@leadership_team:(Head of campus)",
+      "dialog_node": "node_13_1546718835641",
+      "previous_sibling": "node_12_1546718778597"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mr. Nitish Raikar is the COO of iPrimed Education Solutions Pvt. Ltd."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1546718265468",
+      "metadata": {},
+      "conditions": "@leadership_team:COO",
+      "dialog_node": "node_12_1546718778597",
+      "previous_sibling": "node_11_1546718591349"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mr. Basha Shaik is the head of technology of iPrimed Education Solutions Pvt. Ltd."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1546718265468",
+      "metadata": {},
+      "conditions": "@leadership_team:(Head of technology)",
+      "dialog_node": "node_14_1546718892514",
+      "previous_sibling": "node_13_1546718835641"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mr. Ratheesh Sebastian is the head of finance of iPrimed Education Solutions Pvt. Ltd."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1546718265468",
+      "metadata": {},
+      "conditions": "@leadership_team:(Finance Head)",
+      "dialog_node": "node_15_1546718951430",
+      "previous_sibling": "node_14_1546718892514"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mr. Navin Kumar is the CEO & Founder of iPrimed Education Solutions Pvt. Ltd."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1546718265468",
+      "metadata": {},
+      "conditions": "@leadership_team:CEO",
+      "dialog_node": "node_11_1546718591349"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a bot and do not feel such emotions like humans."
+              },
+              {
+                "text": "Should I have to feel that way ?"
+              },
+              {
+                "text": "Why are you asking by the way?"
+              },
+              {
+                "text": "I don't know, but thanks for asking ."
+              },
+              {
+                "text": "I don't know whether I have such emotions or not."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#emotions",
+      "dialog_node": "node_4_1546728890648",
+      "previous_sibling": "node_3_1546728255255"
+    },
+    {
+      "type": "standard",
+      "title": "Store Locator",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our main office's address is : No.62B, 2nd Floor, 2nd Cross Road, Opposite Electronic City Post, Electronics City Phase 1, Electronic City, Bengaluru, Karnataka 560100"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Our main office is in Bengaluru. We are also located in other cities like Jamshedpur,Chennai,Hyderabad etc"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "@location:bengaluru || #Store_Location",
+      "dialog_node": "node_26_1546724513927",
+      "previous_sibling": "node_22_1546722985273"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am here to help you. Feel free to ask me what you want to."
+              },
+              {
+                "text": "hello, I am here to help you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_2_1546715301522",
+      "previous_sibling": "node_3_1546715530867"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "that's good"
+              },
+              {
+                "text": "great"
+              },
+              {
+                "text": "excellent "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#me_too",
+      "dialog_node": "node_6_1546730739275",
+      "previous_sibling": "node_5_1546730380284"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1547067531798"
+    },
+    {
+      "type": "standard",
+      "title": "goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bye,have a nice day."
+              },
+              {
+                "text": "Its been nice talking to you,bye"
+              },
+              {
+                "text": "see you,bye."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_3_1546715530867",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I was created by IBM Watson Assistant which was previously known as IBM Watson Conversations."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#programming && @programming",
+      "dialog_node": "node_8_1546795552698",
+      "previous_sibling": "node_6_1546730739275"
+    },
+    {
+      "type": "standard",
+      "title": "Course Suggestion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We provide different types of courses. Please visit www.iprimedathena.com to know more about the courses."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#course_suggestion",
+      "dialog_node": "node_3_1546728255255",
+      "previous_sibling": "node_2_1546728093032"
+    },
+    {
+      "type": "standard",
+      "title": "Leadership Team",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1546718591349"
+      },
+      "conditions": "#About_the_company_leaders",
+      "dialog_node": "node_10_1546718265468",
+      "previous_sibling": "node_4_1546715749534"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In general, I help out peoples by answering their queries."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_2_1546728093032",
+      "previous_sibling": "node_1_1546727968367"
+    },
+    {
+      "type": "standard",
+      "title": "About Chatbot",
+      "output": {
+        "generic": []
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_24_1546723320301"
+      },
+      "conditions": "#General_About_You",
+      "dialog_node": "node_22_1546722985273",
+      "previous_sibling": "node_21_1546722516212"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "metadata": {},
+      "conditions": "#ask_for_query",
+      "dialog_node": "node_3_1547067531798",
+      "previous_sibling": "node_2_1547067291313"
+    },
+    {
+      "type": "standard",
+      "title": "wishing",
+      "output": {
+        "generic": []
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1546716683013"
+      },
+      "conditions": "#wishing",
+      "dialog_node": "node_5_1546716424396",
+      "previous_sibling": "node_2_1546715301522"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Working hours on weekdays are 9pm - 7pm and on weekend it is 9pm-3pm. We are closed on sundays."
+              },
+              {
+                "text": "Mon-Fri : 9am to 7pm, Sat: 9am to 3pm, We are closed on sundays."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Store_Hours",
+      "dialog_node": "node_27_1546725179584",
+      "previous_sibling": "node_26_1546724513927"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are solving Employability at Scale for the VUCA world! The unique learning model that we conceptualized in 2009 and executed for the next few years demonstrated significant “behavior shift” in learners within a short span of time! Learners came out more mature and holistic and were always learning! This solved the problem but was not scalable as there was a huge reliance on “super human trainers/facilitators”!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Company_work",
+      "dialog_node": "node_2_1547067291313",
+      "previous_sibling": "node_1_1547066995051"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This world is a beautiful place."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#about_world",
+      "dialog_node": "node_1_1547066995051",
+      "previous_sibling": "node_8_1546795552698"
+    },
+    {
+      "type": "standard",
+      "title": "question on abilities",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "try me"
+              },
+              {
+                "text": "I am a chatbot, I am supposed to be this way only."
+              },
+              {
+                "text": "I am a robot afterall"
+              },
+              {
+                "text": "believe me "
+              },
+              {
+                "text": "trust me "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#questioning_capabilities",
+      "dialog_node": "node_18_1546720248957",
+      "previous_sibling": "node_17_1546719507598"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You should call at 080-4094-1642 "
+              },
+              {
+                "text": "call at 080-4094-1642 and our representative will help you out."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_21_1546722516212",
+      "previous_sibling": "node_20_1546722286976"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can reach us by mail at info(at)iprimed.com\n or\nCall Us at 080-4094-1642"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Contact_Us",
+      "dialog_node": "node_29_1546726014686",
+      "previous_sibling": "node_28_1546725533532"
+    },
+    {
+      "type": "standard",
+      "title": "thanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "you're welcome!"
+              },
+              {
+                "text": "The pleasure is all mine."
+              },
+              {
+                "text": "anytime"
+              },
+              {
+                "text": "I'm glad I could help"
+              },
+              {
+                "text": "It's ok"
+              },
+              {
+                "text": "it's ok it's my job to help peoples"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#thanks",
+      "dialog_node": "node_4_1546715749534",
+      "previous_sibling": "node_5_1546716424396"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am a chatbot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_20_1546722286976",
+      "previous_sibling": "node_19_1546720430932"
+    },
+    {
+      "type": "standard",
+      "title": "Positive Feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "thank you"
+              },
+              {
+                "text": "I'm glad to hear that"
+              },
+              {
+                "text": "afterall i am a chatbot"
+              },
+              {
+                "text": "compliment accepted"
+              },
+              {
+                "text": "thanks"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_17_1546719507598",
+      "previous_sibling": "node_10_1546718265468"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry at this moment I can't able to answer this but send us a message at \ninfo@iprimed.com or\nCall Us\n080-4094-1642 for the information."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Employment_Inquiry",
+      "dialog_node": "node_28_1546725533532",
+      "previous_sibling": "node_27_1546725179584"
+    },
+    {
+      "type": "standard",
+      "title": "Name of the company",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "iPrimed Education Solutions Private Limited."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#name_of_the_company",
+      "dialog_node": "node_1_1546727968367",
+      "previous_sibling": "node_29_1546726014686"
+    },
+    {
+      "type": "standard",
+      "title": "Criticism",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How can you say that,you barely know me."
+              },
+              {
+                "text": "Why are you saying like that I am the most advanced chatbot in this planet."
+              },
+              {
+                "text": "please,don't say things like that"
+              },
+              {
+                "text": "your opinion your views, cant help you with that."
+              },
+              {
+                "text": "It's ok if you think like that."
+              },
+              {
+                "text": "I hope your opinions will change soon."
+              },
+              {
+                "text": "your choice"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_19_1546720430932",
+      "previous_sibling": "node_18_1546720248957"
+    },
+    {
+      "type": "standard",
+      "title": "How are you type questions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am doing great,what about you?"
+              },
+              {
+                "text": "I am fine thank you,what about you?"
+              },
+              {
+                "text": "absolutely fine, what about you?"
+              },
+              {
+                "text": "fine thank you, how are you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#fine_thank_you",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1546730380284",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1546728890648"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi,I am an IBM Watson Chatbot developed as a project to give you information about the company which I work for."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "6822dfd9-30b8-4aee-98f9-7a53e11e5f9d",
+  "counterexamples": [
+    {
+      "text": "motherfucker"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Training"
+}
